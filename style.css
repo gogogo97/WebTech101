@@ -1,7 +1,7 @@
-html { 
+/* html { 
     margin: 5px;
     padding: 10px;
-} 
+}  */
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
 
 body, html{
@@ -39,3 +39,42 @@ ul {
     -o-object-fit: contain;
     object-fit: contain; 
 }
+
+/*from How to make td clickable? By user2766367 on stackoverflow*/
+
+a {
+    color:white;
+    text-decoration:none;
+} 
+
+
+#child, #child2, #child3, #child4{
+	position:absolute;
+	display:none;
+    top:200px;
+	z-index:9;
+	color:red;
+}
+
+#child:target, #child2:target, #child3:target, #child4:target {
+
+display:block;
+}
+
+
+
+table.coolTable td {
+    background-color:purple;
+    color:green;
+}
+
+table.coolTable td:hover {
+    background-color:green;
+    color:green;
+}
+td a {
+    display:block;
+    width:100%;
+}
+/*end */
+
