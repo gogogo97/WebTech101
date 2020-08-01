@@ -5,8 +5,8 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
 
 body, html{
-    margin: auto;
-    background-position: center;
+    margin: right;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     font: 'Oswald' , sans-serif !important;
@@ -47,7 +47,12 @@ ul {
     object-fit: contain; 
 }
 
-/*from How to make td clickable? By user2766367 on stackoverflow*/
+.classes{
+    font-size: large;
+
+}
+
+/*from How to make td clickable? By user2766367 on stackoverflow, modified*/
 
 a {
     color:white;
@@ -55,35 +60,60 @@ a {
 } 
 
 
-#child, #child2, #child3, #child4{
-	position:absolute;
-	display:none;
-    top:500px;
+#child, #child2, #child3, #child4, #child5, #child6, #child7, #child8, #child9, #child10, #child11, #child12, #child13, #child14, #child15, #child16, #child17{
+	position: absolute;
+    display:none;
+    left: 300px;
+    top:700px;
 	z-index:9;
-	color:red;
+	color:black;
 }
 
 #child:target, #child2:target, #child3:target, #child4:target {
-
-display:block;
+    display:block;
 }
 
+#child5:target, #child6:target, #child7:target, #child8:target {
+    display:block;
+}
 
+#child9:target, #child10:target, #child11:target, #child12:target {
+    display:block;
+}
+
+#child13:target, #child14:target, #child15:target, #child16:target {
+    display:block;
+}
+
+#child17:target{
+    display:block
+}
 
 table.coolTable td {
-    border-color: black black black black; /*top right bottom left*/
+    border: 0.5px inset black;
+    border-collapse: collapse;
+    border-spacing: 0;
     margin-left: 30px;
-    background-color:purple;
+    background-color:antiquewhite;
     color:green;
 }
 
 table.coolTable td:hover {
+    border: 1px solid yellow;
+    border-collapse: collapse;
+    border-spacing: 0;
     background-color:rgb(99, 216, 224);
     color:green;
 }
+h3{
+    text-align: left;
+}
 td a {
+    text-align: center;
+    border-color: black black black black; /*top right bottom left*/
     display:block;
-    width:100%;
+    width:  300px;
+    height: 60px;
 }
 /*end */
 

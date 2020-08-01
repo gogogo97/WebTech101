@@ -21,7 +21,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-inverse navbar-fixed-top sticky">
-        <div class="container-fluid">
+        <div class="container-fluid" style="padding: 0.5%;">
           <nav class="navbar navbar-nav navbar-right">
           <ul class="list-inline">
             <li class="active"><a style="color: lightskyblue" href="https://www.facebook.com/profile.php?id=100002351563050">Facebook</a></li>
@@ -34,43 +34,133 @@
       </ul>
           </nav>
         </div>
-      </nav>
-      <div class="center">
+    </nav>
+    <div class="center" >
         <h1>Hello!</h1>
         <h1>This page is about classes I take!</h1>
-        <table class="coolTable" style="margin: auto;">
-          <tr class="center"> <!--header for the title-->
-            <th colspan="2">Classes</th>
+        <table class="coolTable classes" style="margin: auto; width: 30px; height: 20px;">
+          <tr> <!--header for the title-->
+            <th colspan="4">Classes</th>
           </tr>   
           <tr> <!--tr is the beginner of the row-->
-            <td onClick="document.location.href='#child1;">      
-            <a href='#child1' class="parent1">Sunday</a>
-            <div id="child1"><h3>Sunday</h3>
+            <td onClick="document.location.href='#child;">      
+            <a href='#child' class="parent1">Sunday</a>
+            <div id="child"><h3>Sunday</h3>
               <p> There is no class on Sunday.</p>
             </div><!--EO Child1 -->
             </td>
-          <td>      
-            <a href='#child2' class="parent2">Row way bigger than row under</a>
-            <div id="child2"><h3>Child2</h3>
-              <p> Here pops Info on something when parent2 is clicked.</p>
-            </div><!--EO Child2 -->
-          </td>
           </tr> <!--end of tr row 1-->
           <tr> <!--beginning of tr row 2-->
             <td>      
-              <a href='#child3' class="parent3">Parent3</a>
-              <div id="child3"><h3>Child3</h3>
-                <p> Here pops Info on something when parent1 is clicked.</p>
-              </div><!--EO Child1 -->
+              <a href='#child2' class="parent2">Monday</a>
+              <div id="child2"><h3>Monday</h3>
+                <p> There is 1 class on Monday: Seminar.</p>
+              </div>
             </td>
-            <td onClick="document.location.href='#child4">      
-            <a href='#child4' class="parent4">Parent4</a>
-            <div id="child4"><h3>Child4</h3>
-              <p> Here pops Info on something when parent4 is clicked.</p>
-            </div><!--EO Child2 -->
+            <td onClick="document.location.href='#child3">      
+            <a href='#child3' class="parent3">08:00 - 11:00am Seminar</a>
+            <div id="child3"><h3>08:00 - 11:00am Seminar</h3>
+              <p> Seminar is the class that improve the skills of speaking and keeping up with social cues.</p>
+            </div>
             </td>
           </tr> <!--end of tr row 2-->
+          <tr> <!--beginning of tr row 3-->
+            <td>      
+              <a href='#child4' class="parent4">Tuesday</a>
+              <div id="child4"><h3>Tuesday</h3>
+                <p> There is 1 class on Tuesday: Website Technology.</p>
+              </div>
+            </td>
+            <td onClick="document.location.href='#child5">      
+              <a href='#child5' class="parent5">08:00 - 10:00am Website Technology (Lecture)</a>
+              <div id="child5"><h3>08:00 - 10:00am Website Technology (Lecture)</h3>
+              <p> Website Technology teaches the basic principle of websites.</p>
+            </div>
+            </td>
+            <td onClick="document.location.href='#child6">      
+              <a href='#child6' class="parent6">12:30 - 2:30pm Website Technology (Laboratory)</a>
+              <div id="child6"><h3>12:30 - 2:30pm Website Technology</h3>
+                <p> Website Technology teaches the basic principle of designing websites.</p>
+              </div>
+            </td>
+          </tr> <!--end of tr row 3-->
+          <tr> <!--beginning of tr row 4-->
+            <td>      
+              <a href='#child7' class="parent7">Wednesday</a>
+              <div id="child7"><h3>Wednesday</h3>
+                <p> There is 3 class on Tuesday: Intellectual Properties and Professional Ethics, Operating System, System Analysis.</p>
+              </div>
+            </td>
+            <td onClick="document.location.href='#child8">      
+            <a href='#child8' class="parent8">10:00 - 11:30am Intellectual Properties and Professional Ethics</a>
+            <div id="child8"><h3>10:00 - 11:30am Intellectual Properties and Professional Ethics</h3>
+              <p> Intellectual Properties and Professional Ethics teaches proper ethics for formal internet property rights.</p>
+            </div><!--EO Child2 -->
+            </td>
+            <td onClick="document.location.href='#child9">      
+              <a href='#child9' class="parent9">12:00 - 14:00pm Operating System</a>
+              <div id="child9"><h3>12:00 - 14:00pm Operating System</h3>
+                <p> Operating System teaches how OS operates everything.</p>
+              </div><!--EO Child2 -->
+            </td>
+            <td onClick="document.location.href='#child10">      
+                <a href='#child10' class="parent10">14:00 - 16:00pm System Analysis</a>
+                <div id="child10"><h3>14:00 - 16:00pm System Analysis</h3>
+                  <p> System Analysis teaches about analysing any system that comes into point of interest.</p>
+                </div><!--EO Child2 -->
+            </td>
+          </tr> <!--end of tr row 4-->
+          <tr> <!--beginning of tr row 5-->
+            <td>      
+              <a href='#child11' class="parent11">Thursday</a>
+              <div id="child11"><h3>Thursday</h3>
+                <p> There is 1 class on Tuesday: Software Engineering.</p>
+              </div>
+            </td>
+            <td onClick="document.location.href='#child12">      
+              <a href='#child12' class="parent12">08:00 - 10:00am Software Engineer (Laboratory)</a>
+              <div id="child12"><h3>08:00 - 10:00am Software Engineer (Lecture)</h3>
+              <p> Software Engineer teaches how to be discipline with the software you make.</p>
+            </div>
+            </td>
+            <td onClick="document.location.href='#child13">      
+              <a href='#child13' class="parent13">11:00 - 1:00pm Software Engineer (Lecture)</a>
+              <div id="child13"><h3>11:00 - 1:00pm Software Engineer</h3>
+                <p> Software Engineer teaches how to make software as a group/team.</p>
+              </div>
+            </td>
+          </tr> <!--end of tr row 5-->
+          <tr> <!--beginning of tr row 6-->
+            <td>      
+              <a href='#child14' class="parent14">Friday</a>
+              <div id="child14"><h3>Friday</h3>
+                <p> There is 2 class on Tuesday: Intellectual Properties and Professional Ethics, Operating System.</p>
+              </div>
+            </td>
+            <td onClick="document.location.href='#child15">      
+            <a href='#child15' class="parent15">10:00 - 11:30am Intellectual Properties and Professional Ethics</a>
+            <div id="child15"><h3>10:00 - 11:30am Intellectual Properties and Professional Ethics</h3>
+              <p> Intellectual Properties and Professional Ethics teaches proper ethics for formal internet property rights.</p>
+            </div><!--EO Child2 -->
+            </td>
+            <td onClick="document.location.href='#child16">      
+              <a href='#child16' class="parent16">12:00 - 14:00pm Operating System</a>
+              <div id="child16"><h3>12:00 - 14:00pm Operating System</h3>
+                <p> Operating System teaches how OS operates everything.</p>
+              </div><!--EO Child2 -->
+            </td>
+          </tr> <!--end of tr row 6-->
+          <tr> <!--beginning of row 7-->
+            <td onClick="document.location.href='#child17;">      
+            <a href='#child17' class="parent17">Saturday</a>
+            <div id="child17"><h3>Saturday</h3>
+              <p> There is no class on Saturday.</p>
+            </div>
+            </td>
+          </tr> <!--end of tr row 7-->
       </table>
+
       </div>  
+      
 </body>
 </html>
