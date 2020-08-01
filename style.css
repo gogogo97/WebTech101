@@ -9,7 +9,15 @@ body, html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Oswald', sans-serif !important;
+    font: 'Oswald', sans-serif !important;
+    background-color: gray;
+}
+.body{
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font: 'Oswald', sans-serif ;
     background-color: gray;
 }
 ul {
@@ -64,7 +72,7 @@ display:block;
 
 
 table.coolTable td {
-    margin: auto;
+    margin-left: 30px;
     background-color:purple;
     color:green;
 }
