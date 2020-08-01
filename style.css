@@ -51,7 +51,7 @@ a {
 #child, #child2, #child3, #child4{
 	position:absolute;
 	display:none;
-    top:200px;
+    top:500px;
 	z-index:9;
 	color:red;
 }
@@ -69,7 +69,7 @@ table.coolTable td {
 }
 
 table.coolTable td:hover {
-    background-color:green;
+    background-color:rgb(99, 216, 224);
     color:green;
 }
 td a {
