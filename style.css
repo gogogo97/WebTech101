@@ -64,6 +64,7 @@ display:block;
 
 
 table.coolTable td {
+    margin: auto;
     background-color:purple;
     color:green;
 }
