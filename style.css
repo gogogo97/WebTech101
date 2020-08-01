@@ -9,8 +9,8 @@ body, html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font: 'Oswald', sans-serif !important;
-    background-color: gray;
+    font: 'Oswald' , sans-serif !important;
+    
 }
 .body{
     margin: auto;
@@ -72,6 +72,7 @@ display:block;
 
 
 table.coolTable td {
+    border-color: black black black black; /*top right bottom left*/
     margin-left: 30px;
     background-color:purple;
     color:green;
