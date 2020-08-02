@@ -34,7 +34,7 @@ ul {
     top: 10px; /* When the element reaches top: 10px, it becomes fixed. */
     z-index: 100;
 }
-.font {
+.font300 {
     font-size: 300%;
 }
 .navbar-brand>img {
