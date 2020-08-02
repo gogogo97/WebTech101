@@ -10,7 +10,7 @@ body, html{
     background-repeat: no-repeat;
     background-size: cover;
     font: 'Oswald' , sans-serif !important;
-    
+    background-color: pink;
 }
 .body{
     margin: auto;
@@ -71,22 +71,27 @@ a {
 
 #child:target, #child2:target, #child3:target, #child4:target {
     display:block;
+    background-color: white;
 }
 
 #child5:target, #child6:target, #child7:target, #child8:target {
     display:block;
+    background-color: white;
 }
 
 #child9:target, #child10:target, #child11:target, #child12:target {
     display:block;
+    background-color: white;
 }
 
 #child13:target, #child14:target, #child15:target, #child16:target {
     display:block;
+    background-color: white;
 }
 
 #child17:target{
-    display:block
+    display:block;
+    background-color: white;
 }
 
 table.coolTable td {
